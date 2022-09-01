@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+.err {
+    background-color: red;
+    color: white;
+
+    padding: 12px;
+    font-family: 'Lato', sans-serif;
+}

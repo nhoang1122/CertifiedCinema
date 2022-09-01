@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+.signUp {
+    width: 100%;
+    height: 100vh;
+}
+
+.bg-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.sign-div {
+    position: fixed;
+
+    width: 100%;
+
+    padding-left: 1rem; /* 16px */
+    padding-right: 1rem; /* 16px */
+
+    padding-top: 6rem; /* 96px */
+    padding-bottom: 6rem; /* 96px */
+    z-index: 50;
+}
+
+.form {
+    max-width: 400px;
+    height: 500px;
+
+    background: rgba(0, 0, 0, 0.9) /* Green background with 30% opacity */;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+    color: white;
+
+    border-radius: 20px;
+
+
+    /* opacity: 0.5; */
+}
+
+.signup-f{
+    width: 100%;
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-div {
+    max-width: 320px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 64px;
+
+}
+
+.h1-signup {
+
+    text-align: center;
+
+    font-weight: bold;
+
+    font-size: 1.875rem; /* 30px */
+    line-height: 2.25rem; /* 36px */
+
+    font-family: 'Lato', sans-serif;
+
+}
+
+.signup-btn {
+    background-color: #5D737E;
+
+    padding-top: 0.75rem; /* 12px */
+    padding-bottom: 0.75rem; /* 12px */
+
+    margin-top: 1.5rem; /* 24px */
+    margin-bottom: 1.5rem; /* 24px */
+
+    font-weight: bold;
+
+    border-radius: 10px;
+    border: none;
+    color: white;
+
+    font-family: 'Lato', sans-serif;
+}
+
+input {
+    padding: 0.75rem; /* 12px */
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    border-radius: 10px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.link {
+    padding-top: 1rem; /* 16px */
+    padding-bottom: 1rem; /* 16px */
+
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.span-link {
+    color: #5D737E;
+    font-family: 'Lato', sans-serif;
+
+    text-decoration: none;
+}
+
+.span-link:link {
+    text-decoration: none;
+  }
+  
+.span-link:visited {
+    text-decoration: none;
+}
+  
+.span-link:hover {
+    text-decoration: none;
+}
+  
+.span-link:active {
+    text-decoration: none;
+}

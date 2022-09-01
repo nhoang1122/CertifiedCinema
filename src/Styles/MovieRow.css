@@ -1,0 +1,57 @@
+.movie-row-map {
+    width: 160px;
+
+    display: inline-block;
+
+    cursor: pointer;
+
+    position: relative;
+
+    padding: 8px;
+}
+
+.movie-row-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    top: 0px;
+    left: 0px;
+
+    color: white;
+}
+
+.movie-row-overlay:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.movie-row-img-title {
+    white-space: normal;
+
+    font-size: 0.75rem; /* 12px */
+    line-height: 1rem; /* 16px */
+
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+
+    text-align: center;
+}
+
+.movie-row-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.movie-row-heart {
+    position: absolute;
+    color: white;
+    
+    top: 16px;
+    left: 16px;
+}

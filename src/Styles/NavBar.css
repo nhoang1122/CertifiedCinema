@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.logo {
+    color: white;
+    font-weight: bold;
+    font-size: 2.25rem; /* 36px */
+    line-height: 2.5rem; /* 40px */
+
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+
+
+.sign-btn {
+    background-color: #5D737E;
+    color: white;
+
+    padding: 20px;
+    
+    
+    
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-family: 'Lato', sans-serif;
+
+}
+
+.NavBar {
+    
+    justify-content: space-between;
+
+    background-color: #ABDAE1;
+
+    position: absolute;
+    width:100%;
+    align-items: center;
+    display: flex;
+    padding: 4px;
+    /* padding: 16px; */
+    z-index: 100;
+}
+
+.icon {
+    margin: 12px;
+    cursor: pointer;
+}

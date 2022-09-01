@@ -26,8 +26,6 @@ const LogIn = () => {
     }
   }
 
-
-
   return (
     <div className="signUp">
     <img

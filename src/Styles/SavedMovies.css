@@ -1,7 +1,7 @@
 .closeout {
     position: absolute;
     color: white;
-    top: 1rem; /* 16px */
+    top: 1rem; 
     right: 1rem;
 }
 
@@ -70,8 +70,8 @@
 .movie-row-img-title {
     white-space: normal;
 
-    font-size: 0.75rem; /* 12px */
-    line-height: 1rem; /* 16px */
+    font-size: 0.75rem; 
+    line-height: 1rem; 
 
     font-weight: bold;
 

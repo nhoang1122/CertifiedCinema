@@ -1,5 +1,3 @@
-import "./App.css";
-
 // COMPONENTS //
 import NavBar from "./Components/NavBar";
 
